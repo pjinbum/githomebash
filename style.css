@@ -183,6 +183,8 @@ main{
 }
 
 footer{
+  position: relative;
+  z-index: 200;
   background-color: #ff2c7d;
 }
 
@@ -267,7 +269,7 @@ aside>ul>li>a{
 
 .overlay{
   position: absolute;
-  top:100px;
+  top:90px;
   left:200px;
   width: 70vw;
   height: 200vh;
@@ -275,4 +277,239 @@ aside>ul>li>a{
   z-index: 100;
 }
 
+.overX{
+  display: none;
+  width: 30px;
+  height: 30px;
+  margin: 0 60%;
+}
 
+@media screen and (max-width:1200px) {
+
+
+
+
+header{
+  background-color: #ff2c7d;
+}  
+
+
+
+
+
+.ham{
+  display: block
+
+}
+
+.ham>i{
+  color: #fff;
+  font-size: 20px;
+  margin: 30px 30px;
+
+}
+
+
+
+
+.gnb-list{
+  display: none;  
+}
+
+
+
+.slide1>ul>li>img{
+  width: 100%;
+  height: 800px;
+  object-fit: fill;
+}
+
+.modal1{
+  display: none;
+}
+
+
+
+.slide2>ul>li>img{
+  width: 100%;
+  height: 800px;
+  object-fit: fill;
+  
+}
+
+.modal2{
+  display: none;
+  
+}
+
+
+.btn-list1{
+  position: absolute;
+  top :800px;
+  left: 300px;
+  z-index: 200;
+  background-color: transparent;
+}
+
+.btn-list2{
+  position: absolute;
+  top :1650px;
+  left: 300px;
+  z-index: 200;
+  
+
+}
+
+
+footer{
+ 
+  background-color: #bcff2c;
+}
+
+
+
+
+aside{
+ 
+  background-color: rgb(225, 163, 38);
+ 
+
+}
+
+
+.slide-down2:hover{  
+  background-color: #2cd5ff;
+    
+}
+
+
+
+.overlay{
+  
+  height: 180vh;
+  transition: all 400ms ease-in-out;
+ 
+}
+  
+}
+
+
+@media screen and (max-width:520px) {
+  
+
+header{
+  width: 100vw;
+  position: relative;
+  z-index: 500;
+  background-color:rgb(38, 125, 225);
+}  
+
+
+
+
+
+
+
+.ham>i{
+  color: #fff;
+  
+  margin: 30px 30px;
+
+}
+
+
+
+
+
+
+
+.slide1>ul>li>img{
+  width: 80%;
+  height: 400px;
+  object-fit: fill;
+  border-radius: 20%;
+}
+
+
+
+
+.slide2>ul>li>img{
+  width: 80%;
+  height: 400px;
+  object-fit: fill;
+  border-radius: 20%;
+  
+}
+
+
+
+.btn-list1{
+  position: absolute;
+  top :450px;
+  left: 5px;
+  z-index: 200;
+  background-color: transparent;
+ 
+}
+
+
+
+.btn-list2{
+  position: absolute;
+  top :870px;
+  left: 5px;
+  z-index: 200;
+  
+  
+
+}
+
+.btn-list1>button:hover , .btn-list2>button:hover{
+  background-color: rgba(103, 0, 199, .5);
+}
+
+
+footer{
+ 
+  background-color: #ff2cce;
+  transition: all 400ms ease-in-out;
+}
+
+footer:hover{
+  background-color: #bcff2c;
+
+}
+
+
+
+
+aside{
+ 
+  background-color: rgba(38, 125, 225, .9);
+ 
+
+}
+
+
+.slide-down2:hover{  
+  background-color: #2cff53;
+    
+}
+
+
+
+.overlay{
+  background-color: rgba(103, 0, 199, .5);
+  width: 50vw;
+  height: 100vh;
+  transition: all 400ms ease-in-out;
+ 
+}
+
+.overX{
+  display: block;
+  color: rgba(161, 248, 10,.9);
+}
+
+
+}

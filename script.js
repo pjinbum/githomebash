@@ -157,6 +157,20 @@ document.querySelector('.slide2>ul').style.transform = 'translate(-900vw)'
 
 
 
+
+let ham = document.querySelector('.ham');
+ham.addEventListener('click' , function(){
+  document.querySelector('.overlay').style = 'background-color:rgba(161, 248, 10,.9)'
+});
+
+let overX = document.querySelector('.overX');
+overX.addEventListener('click', function(){
+  document.querySelector('.overlay').style.opacity = '0'
+})
+
+
+
+
 $('.sub1-down').hover(function(){
   $(this).find('.sub1').stop().slideDown(500);
 }, function(){
@@ -169,3 +183,4 @@ $('.slide-down2').hover(function(){
 }, function(){
   $(this).find('.sub2').stop().slideUp(500);
 })
+
