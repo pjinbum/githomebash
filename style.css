@@ -64,7 +64,22 @@ header{
 }
 .sub1{
   display: none;
-  /* position: absolute; */
+  position: absolute;
+  top:90px;
+  
+
+  
+}
+
+.sub1-down>ul{
+  background-color:#ff2c7d;
+
+}
+
+.sub1-down>ul>li{
+  margin-right: 25px;
+  
+  color: #fff;
 
   
 }
@@ -76,11 +91,13 @@ main{
 
 .slide1{
   overflow: hidden;
+
 }
 
 .slide1>ul{
   display: flex;
   width: 1000vw;
+  transition: all 400ms ease-in-out;
 }
 
 .slide1>ul>li{
@@ -115,6 +132,7 @@ main{
 .slide2>ul{
   display: flex;
   width: 1000vw;
+  transition: all 400ms ease-in-out;
 }
 
 .slide2>ul>li{
@@ -146,7 +164,7 @@ main{
   position: absolute;
   top :800px;
   left: 300px;
-  z-index: 100;
+  z-index: 200;
   background-color: transparent;
 }
 .btn-list1>button{
@@ -156,7 +174,7 @@ main{
   position: absolute;
   top :1730px;
   left: 300px;
-  z-index: 100;
+  z-index: 200;
   
 
 }
@@ -192,6 +210,7 @@ aside{
   overflow: scroll;
   scroll-behavior: smooth;
   display: none;
+  transition: all 400ms ease-in-out;
 
 }
 
@@ -223,6 +242,17 @@ aside>ul>li>a{
   margin-left: 12px;
 }
 
+
+
+.slide-down2:hover{  
+  background-color: #ff2c7d;
+  
+  
+  
+}
+
+
+
 .sub2{
   display: none;
 }
@@ -239,7 +269,9 @@ aside>ul>li>a{
   position: absolute;
   top:100px;
   left:200px;
-  background-color: rebeccapurple;
+  width: 70vw;
+  height: 200vh;
+  background-color: transparent;
   z-index: 100;
 }
 
